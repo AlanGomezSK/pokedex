@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="logo">
+        <img src="img/logoPokemon.png" alt="'Logo POKEMON'">
+    </div>
+    <div class="pokedex">
+        <div class="pokedex_elements">
+            <img src="img/pokedex.png" alt="Imagen de la pokedex">
+            <div class="pokedex_elements--imgp">
+                <img class="pkmimg" id="pokemonImg" src="img/logoPokemon.png" alt="imagen pokemon">
+            </div>
+            <div class="pokedex_elements--btn">
+                <input id="nombrePkm" type="text" placeholder="Ej: Pikachu" value="pikachu">
+                <button onclick="btn()">Buscar</button>
+            </div>
+            <div id="screen" class="pokedex_elements--screen">
+            </div>
+            <div class="pokedex_elements--type">
+                <h2>Type:</h2>
+                <p id="type"></p>
+                <p id="type1"></p>
+            </div>
+            <div class="pokedex_elements--stats">
+                <div class="stats">
+                    
+                    <p id="stats1_num"></p>
+                    <div id="stat1_bar"></div>
+                    <h2>HP</h2>
+                </div>
+                <div class="stats" >
+                    
+                    <p  id="stats2_num"></p>
+                    <div id="stat2_bar"></div>
+                    <h2>ATTACK</h2>
+                </div>
+                <div class="stats">
+                    
+                    <p  id="stats3_num"></p>
+                    <div id="stat3_bar"></div>
+                    <h2>DEFENSE</h2>
+                </div>
+                <div class="stats">
+                    
+                    <p  id="stats4_num"></p>
+                    <div id="stat4_bar"></div>
+                    <h2>SPECIAL ATTACK</h2>
+                </div>
+                <div class="stats" >
+                    
+                    <p  id="stats5_num"></p>
+                    <div id="stat5_bar"></div>
+                    <h2>SPECIAL DEFENSE</h2>
+                </div>
+                <div class="stats">
+                    
+                    <p  id="stats6_num"></p>
+                    <div id="stat6_bar"></div>
+                    <h2>SPEED</h2>
+                </div >
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
